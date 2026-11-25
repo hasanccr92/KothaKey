@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kothakey.ime.ui.KeyboardRootLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#263238">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.kothakey.ime.ui.SuggestionStrip
+            android:id="@+id/suggestions"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.kothakey.ime.keyboard.KothaKeyKeyboardView
+                android:id="@+id/keyboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.kothakey.ime.emoji.EmojiPaletteView
+                android:id="@+id/emoji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="220dp"
+                android:visibility="gone" />
+
+            <com.kothakey.ime.clipboard.ClipboardPanelView
+                android:id="@+id/clipboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="220dp"
+                android:visibility="gone" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <!-- Drawn last so the key bubbles float over the strip; it never takes touches. -->
+    <com.kothakey.ime.ui.KeyPopupOverlay
+        android:id="@+id/popup_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</com.kothakey.ime.ui.KeyboardRootLayout>

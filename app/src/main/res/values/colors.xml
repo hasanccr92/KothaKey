@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#12353C</color>
+    <color name="setup_bg">#EEF3F2</color>
+    <color name="setup_ink">#15262A</color>
+    <color name="setup_muted">#4A5C61</color>
+    <color name="setup_green">#1A6B4A</color>
+    <color name="setup_red">#C23B2E</color>
+    <color name="setup_teal">#12353C</color>
+    <color name="setup_panel">#F7FAF9</color>
+    <color name="setup_stroke">#C5D4D1</color>
+    <color name="setup_telegram">#229ED9</color>
+</resources>

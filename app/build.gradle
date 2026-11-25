@@ -1,0 +1,44 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.kothakey"
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.kothakey"
+        minSdk 23
+        targetSdk 34
+        versionCode 2
+        versionName "1.0.1"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    sourceSets {
+        main {
+            resources.srcDirs += ["src/main/resources"]
+        }
+    }
+}
+
+base {
+    archivesName = "KothaKey"
+}
+
+dependencies {
+    testImplementation "junit:junit:4.13.2"
+}

@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.KothaKey" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/setup_teal</item>
+        <item name="android:navigationBarColor">@color/setup_teal</item>
+        <item name="android:colorPrimary">@color/setup_green</item>
+        <item name="android:windowBackground">@color/setup_bg</item>
+        <item name="android:textColorPrimary">@color/setup_ink</item>
+    </style>
+</resources>
