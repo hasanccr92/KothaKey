@@ -1,14 +1,14 @@
 # KothaKey (কথাকি)
 
-Offline Android keyboard for French, English, and Bengali. Version **1.0.1** (`versionCode` 2). Package id `com.kothakey`.
+Offline Android keyboard for French, English, and Bengali. Built for personal use and convenience, shared if anyone wants to modify it for themselves. The goal of this build is to make a battery-efficient keyboard. Version **1.0.1**. Package id `com.kothakey`.
 
-French and English share one multilingual mode on AZERTY, with QWERTY available in settings. Bengali uses the Avro phonetic method: type `ami banglay gan gai` and the keyboard produces `আমি বাংলায় গান গাই`. Nothing is sent off the phone. The only permission is vibration.
+French and English share one multilingual mode on AZERTY, with QWERTY available in settings. Bengali uses the Avro phonetic method: type `ami banglay gan gai` and the keyboard produces `আমি বাংলায় গান গাই`. Nothing is sent off the phone.
 
-Developed by S M Rakib Hasan · [GitHub](https://github.com/hasanccr92) · [Telegram](https://t.me/kothakey)
+Developed by S M Rakib Hasan · [Telegram](https://t.me/kothakey)
 
 ## Install
 
-`KothaKey-debug.apk` in this repository is the 12 November 2026 debug build.
+`KothaKey-debug.apk` in this repository is the latest debug build.
 
 1. Install the APK, or run `install.bat` with a phone connected and `adb` on `PATH`.
 2. Open **KothaKey**.
